@@ -18,9 +18,9 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'db4free.net',
+    user: 'c237_musicapp',
+    password: 'c237_musicapp',
     database: 'c237_musicapp'
 });
 connection.connect((err) => {
